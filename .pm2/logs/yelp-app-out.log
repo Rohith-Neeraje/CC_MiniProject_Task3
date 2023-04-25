@@ -1,0 +1,3147 @@
+server is up and listening on port 3001
+server is up and listening on port 3001
+error: password authentication failed for user "ubuntu"
+    at Parser.parseErrorMessage (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '330',
+  routine: 'auth_failed'
+}
+2
+error: password authentication failed for user "ubuntu"
+    at Parser.parseErrorMessage (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '330',
+  routine: 'auth_failed'
+}
+error: password authentication failed for user "ubuntu"
+    at Parser.parseErrorMessage (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '330',
+  routine: 'auth_failed'
+}
+error: password authentication failed for user "ubuntu"
+    at Parser.parseErrorMessage (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '330',
+  routine: 'auth_failed'
+}
+server is up and listening on port 3001
+2
+Result {
+  command: 'SELECT',
+  rowCount: 1,
+  oid: null,
+  rows: [
+    {
+      id: '6',
+      restaurant_id: '2',
+      name: 'ex',
+      review: 'yay',
+      rating: 5
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+1
+Result {
+  command: 'SELECT',
+  rowCount: 4,
+  oid: null,
+  rows: [
+    {
+      id: '1',
+      restaurant_id: '1',
+      name: 'sabu',
+      review: 'restaurant was awesome',
+      rating: 4
+    },
+    {
+      id: '2',
+      restaurant_id: '1',
+      name: 'shetty',
+      review: 'restaurant was okay',
+      rating: 2
+    },
+    {
+      id: '3',
+      restaurant_id: '1',
+      name: 'saakshi',
+      review: 'good food',
+      rating: 3
+    },
+    {
+      id: '4',
+      restaurant_id: '1',
+      name: 'neeraje',
+      review: 'food was not great',
+      rating: 2
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+2
+Result {
+  command: 'SELECT',
+  rowCount: 1,
+  oid: null,
+  rows: [
+    {
+      id: '6',
+      restaurant_id: '2',
+      name: 'ex',
+      review: 'yay',
+      rating: 5
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+{ name: 'taco bell', location: 'blr', price_range: '2' }
+Result {
+  command: 'INSERT',
+  rowCount: 1,
+  oid: 0,
+  rows: [ { id: '4', name: 'taco bell', location: 'blr', price_range: 2 } ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16386,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16386,
+      columnID: 2,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'location',
+      tableID: 16386,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'price_range',
+      tableID: 16386,
+      columnID: 4,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+{ name: 'Dominoes', location: 'blr', price_range: '3' }
+Result {
+  command: 'INSERT',
+  rowCount: 1,
+  oid: 0,
+  rows: [ { id: '5', name: 'Dominoes', location: 'blr', price_range: 3 } ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16386,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16386,
+      columnID: 2,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'location',
+      tableID: 16386,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'price_range',
+      tableID: 16386,
+      columnID: 4,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+2
+Result {
+  command: 'SELECT',
+  rowCount: 1,
+  oid: null,
+  rows: [
+    {
+      id: '6',
+      restaurant_id: '2',
+      name: 'ex',
+      review: 'yay',
+      rating: 5
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+error: new row for relation "restaurants" violates check constraint "restaurants_price_range_check"
+    at Parser.parseErrorMessage (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  length: 260,
+  severity: 'ERROR',
+  code: '23514',
+  detail: 'Failing row contains (2, pizza hut, hyderabad, -1).',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'restaurants',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'restaurants_price_range_check',
+  file: 'execMain.c',
+  line: '1999',
+  routine: 'ExecConstraints'
+}
+2
+{ name: 'pizza hut', location: 'hyderabad', price_range: '-1' }
+2
+Result {
+  command: 'SELECT',
+  rowCount: 1,
+  oid: null,
+  rows: [
+    {
+      id: '6',
+      restaurant_id: '2',
+      name: 'ex',
+      review: 'yay',
+      rating: 5
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+2
+Result {
+  command: 'SELECT',
+  rowCount: 1,
+  oid: null,
+  rows: [
+    {
+      id: '6',
+      restaurant_id: '2',
+      name: 'ex',
+      review: 'yay',
+      rating: 5
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+1
+Result {
+  command: 'SELECT',
+  rowCount: 4,
+  oid: null,
+  rows: [
+    {
+      id: '1',
+      restaurant_id: '1',
+      name: 'sabu',
+      review: 'restaurant was awesome',
+      rating: 4
+    },
+    {
+      id: '2',
+      restaurant_id: '1',
+      name: 'shetty',
+      review: 'restaurant was okay',
+      rating: 2
+    },
+    {
+      id: '3',
+      restaurant_id: '1',
+      name: 'saakshi',
+      review: 'good food',
+      rating: 3
+    },
+    {
+      id: '4',
+      restaurant_id: '1',
+      name: 'neeraje',
+      review: 'food was not great',
+      rating: 2
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+Result {
+  command: 'INSERT',
+  rowCount: 1,
+  oid: 0,
+  rows: [
+    {
+      id: '7',
+      restaurant_id: '1',
+      name: 'Rohith Neeraje',
+      review: 'rijul is qt',
+      rating: 2
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+1
+Result {
+  command: 'SELECT',
+  rowCount: 5,
+  oid: null,
+  rows: [
+    {
+      id: '1',
+      restaurant_id: '1',
+      name: 'sabu',
+      review: 'restaurant was awesome',
+      rating: 4
+    },
+    {
+      id: '2',
+      restaurant_id: '1',
+      name: 'shetty',
+      review: 'restaurant was okay',
+      rating: 2
+    },
+    {
+      id: '3',
+      restaurant_id: '1',
+      name: 'saakshi',
+      review: 'good food',
+      rating: 3
+    },
+    {
+      id: '4',
+      restaurant_id: '1',
+      name: 'neeraje',
+      review: 'food was not great',
+      rating: 2
+    },
+    {
+      id: '7',
+      restaurant_id: '1',
+      name: 'Rohith Neeraje',
+      review: 'rijul is qt',
+      rating: 2
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+server is up and listening on port 3001
+server is up and listening on port 3001
+server is up and listening on port 3001
+2
+Result {
+  command: 'SELECT',
+  rowCount: 1,
+  oid: null,
+  rows: [
+    {
+      id: '6',
+      restaurant_id: '2',
+      name: 'ex',
+      review: 'yay',
+      rating: 5
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+2
+Result {
+  command: 'SELECT',
+  rowCount: 1,
+  oid: null,
+  rows: [
+    {
+      id: '6',
+      restaurant_id: '2',
+      name: 'ex',
+      review: 'yay',
+      rating: 5
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+{ name: 'dominos', location: 'pune', price_range: '1' }
+Result {
+  command: 'INSERT',
+  rowCount: 1,
+  oid: 0,
+  rows: [ { id: '6', name: 'dominos', location: 'pune', price_range: 1 } ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16386,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16386,
+      columnID: 2,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'location',
+      tableID: 16386,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'price_range',
+      tableID: 16386,
+      columnID: 4,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+6
+Result {
+  command: 'SELECT',
+  rowCount: 0,
+  oid: null,
+  rows: [],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+{ name: 'SUSH SAYS HI', location: 'BLR', price_range: '5' }
+Result {
+  command: 'INSERT',
+  rowCount: 1,
+  oid: 0,
+  rows: [
+    { id: '7', name: 'SUSH SAYS HI', location: 'BLR', price_range: 5 }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16386,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16386,
+      columnID: 2,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'location',
+      tableID: 16386,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'price_range',
+      tableID: 16386,
+      columnID: 4,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+7
+Result {
+  command: 'SELECT',
+  rowCount: 0,
+  oid: null,
+  rows: [],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+error: new row for relation "restaurants" violates check constraint "restaurants_price_range_check"
+    at Parser.parseErrorMessage (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  length: 257,
+  severity: 'ERROR',
+  code: '23514',
+  detail: 'Failing row contains (7, SUSH SAYS HI, BLR, 11).',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'restaurants',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'restaurants_price_range_check',
+  file: 'execMain.c',
+  line: '1999',
+  routine: 'ExecConstraints'
+}
+7
+{ name: 'SUSH SAYS HI', location: 'BLR', price_range: '11' }
+error: new row for relation "restaurants" violates check constraint "restaurants_price_range_check"
+    at Parser.parseErrorMessage (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  length: 257,
+  severity: 'ERROR',
+  code: '23514',
+  detail: 'Failing row contains (7, SUSH SAYS HI, BLR, 11).',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'restaurants',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'restaurants_price_range_check',
+  file: 'execMain.c',
+  line: '1999',
+  routine: 'ExecConstraints'
+}
+7
+{ name: 'SUSH SAYS HI', location: 'BLR', price_range: '11' }
+error: new row for relation "restaurants" violates check constraint "restaurants_price_range_check"
+    at Parser.parseErrorMessage (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  length: 257,
+  severity: 'ERROR',
+  code: '23514',
+  detail: 'Failing row contains (7, SUSH SAYS HI, BLR, 11).',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'restaurants',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'restaurants_price_range_check',
+  file: 'execMain.c',
+  line: '1999',
+  routine: 'ExecConstraints'
+}
+7
+{ name: 'SUSH SAYS HI', location: 'BLR', price_range: '11' }
+error: new row for relation "restaurants" violates check constraint "restaurants_price_range_check"
+    at Parser.parseErrorMessage (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/ubuntu/apps/yelp-app/server/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:293:12)
+    at readableAddChunk (internal/streams/readable.js:267:9)
+    at Socket.Readable.push (internal/streams/readable.js:206:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23) {
+  length: 257,
+  severity: 'ERROR',
+  code: '23514',
+  detail: 'Failing row contains (7, SUSH SAYS HI, BLR, 11).',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'restaurants',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'restaurants_price_range_check',
+  file: 'execMain.c',
+  line: '1999',
+  routine: 'ExecConstraints'
+}
+7
+{ name: 'SUSH SAYS HI', location: 'BLR', price_range: '11' }
+1
+Result {
+  command: 'SELECT',
+  rowCount: 5,
+  oid: null,
+  rows: [
+    {
+      id: '1',
+      restaurant_id: '1',
+      name: 'sabu',
+      review: 'restaurant was awesome',
+      rating: 4
+    },
+    {
+      id: '2',
+      restaurant_id: '1',
+      name: 'shetty',
+      review: 'restaurant was okay',
+      rating: 2
+    },
+    {
+      id: '3',
+      restaurant_id: '1',
+      name: 'saakshi',
+      review: 'good food',
+      rating: 3
+    },
+    {
+      id: '4',
+      restaurant_id: '1',
+      name: 'neeraje',
+      review: 'food was not great',
+      rating: 2
+    },
+    {
+      id: '7',
+      restaurant_id: '1',
+      name: 'Rohith Neeraje',
+      review: 'rijul is qt',
+      rating: 2
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+{ name: 'shetty', location: 'udupi', price_range: '2' }
+Result {
+  command: 'INSERT',
+  rowCount: 1,
+  oid: 0,
+  rows: [ { id: '8', name: 'shetty', location: 'udupi', price_range: 2 } ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16386,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16386,
+      columnID: 2,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'location',
+      tableID: 16386,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'price_range',
+      tableID: 16386,
+      columnID: 4,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+2
+Result {
+  command: 'SELECT',
+  rowCount: 1,
+  oid: null,
+  rows: [
+    {
+      id: '6',
+      restaurant_id: '2',
+      name: 'ex',
+      review: 'yay',
+      rating: 5
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+Result {
+  command: 'INSERT',
+  rowCount: 1,
+  oid: 0,
+  rows: [
+    {
+      id: '8',
+      restaurant_id: '2',
+      name: 'dhwani',
+      review: "shetty wasn't there",
+      rating: 1
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+2
+Result {
+  command: 'SELECT',
+  rowCount: 2,
+  oid: null,
+  rows: [
+    {
+      id: '6',
+      restaurant_id: '2',
+      name: 'ex',
+      review: 'yay',
+      rating: 5
+    },
+    {
+      id: '8',
+      restaurant_id: '2',
+      name: 'dhwani',
+      review: "shetty wasn't there",
+      rating: 1
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+1
+Result {
+  command: 'SELECT',
+  rowCount: 5,
+  oid: null,
+  rows: [
+    {
+      id: '1',
+      restaurant_id: '1',
+      name: 'sabu',
+      review: 'restaurant was awesome',
+      rating: 4
+    },
+    {
+      id: '2',
+      restaurant_id: '1',
+      name: 'shetty',
+      review: 'restaurant was okay',
+      rating: 2
+    },
+    {
+      id: '3',
+      restaurant_id: '1',
+      name: 'saakshi',
+      review: 'good food',
+      rating: 3
+    },
+    {
+      id: '4',
+      restaurant_id: '1',
+      name: 'neeraje',
+      review: 'food was not great',
+      rating: 2
+    },
+    {
+      id: '7',
+      restaurant_id: '1',
+      name: 'Rohith Neeraje',
+      review: 'rijul is qt',
+      rating: 2
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+1
+Result {
+  command: 'SELECT',
+  rowCount: 5,
+  oid: null,
+  rows: [
+    {
+      id: '1',
+      restaurant_id: '1',
+      name: 'sabu',
+      review: 'restaurant was awesome',
+      rating: 4
+    },
+    {
+      id: '2',
+      restaurant_id: '1',
+      name: 'shetty',
+      review: 'restaurant was okay',
+      rating: 2
+    },
+    {
+      id: '3',
+      restaurant_id: '1',
+      name: 'saakshi',
+      review: 'good food',
+      rating: 3
+    },
+    {
+      id: '4',
+      restaurant_id: '1',
+      name: 'neeraje',
+      review: 'food was not great',
+      rating: 2
+    },
+    {
+      id: '7',
+      restaurant_id: '1',
+      name: 'Rohith Neeraje',
+      review: 'rijul is qt',
+      rating: 2
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+2
+Result {
+  command: 'SELECT',
+  rowCount: 2,
+  oid: null,
+  rows: [
+    {
+      id: '6',
+      restaurant_id: '2',
+      name: 'ex',
+      review: 'yay',
+      rating: 5
+    },
+    {
+      id: '8',
+      restaurant_id: '2',
+      name: 'dhwani',
+      review: "shetty wasn't there",
+      rating: 1
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+2
+Result {
+  command: 'SELECT',
+  rowCount: 1,
+  oid: null,
+  rows: [
+    {
+      id: '6',
+      restaurant_id: '2',
+      name: 'ex',
+      review: 'yay',
+      rating: 5
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+2
+Result {
+  command: 'SELECT',
+  rowCount: 1,
+  oid: null,
+  rows: [
+    {
+      id: '6',
+      restaurant_id: '2',
+      name: 'ex',
+      review: 'yay',
+      rating: 5
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16392,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16392,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16392,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16392,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16392,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+server is up and listening on port 3001
+{ name: 'taco bell', location: 'pune', price_range: '2' }
+Result {
+  command: 'INSERT',
+  rowCount: 1,
+  oid: 0,
+  rows: [ { id: '2', name: 'taco bell', location: 'pune', price_range: 2 } ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16429,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16429,
+      columnID: 2,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'location',
+      tableID: 16429,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'price_range',
+      tableID: 16429,
+      columnID: 4,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+2
+Result {
+  command: 'SELECT',
+  rowCount: 0,
+  oid: null,
+  rows: [],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16438,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16438,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16438,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16438,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16438,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+2
+{ name: 'taco bell', location: 'pune', price_range: '3' }
+1
+Result {
+  command: 'SELECT',
+  rowCount: 0,
+  oid: null,
+  rows: [],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16438,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16438,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16438,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16438,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16438,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+Result {
+  command: 'INSERT',
+  rowCount: 1,
+  oid: 0,
+  rows: [
+    {
+      id: '2',
+      restaurant_id: '1',
+      name: 'rijul',
+      review: 'great place to have fun with friends',
+      rating: 5
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16438,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16438,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16438,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16438,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16438,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+1
+Result {
+  command: 'SELECT',
+  rowCount: 1,
+  oid: null,
+  rows: [
+    {
+      id: '2',
+      restaurant_id: '1',
+      name: 'rijul',
+      review: 'great place to have fun with friends',
+      rating: 5
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16438,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16438,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16438,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16438,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16438,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+Result {
+  command: 'INSERT',
+  rowCount: 1,
+  oid: 0,
+  rows: [
+    {
+      id: '3',
+      restaurant_id: '1',
+      name: 'shetty',
+      review: 'sheesh',
+      rating: 3
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16438,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16438,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16438,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16438,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16438,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+1
+Result {
+  command: 'SELECT',
+  rowCount: 2,
+  oid: null,
+  rows: [
+    {
+      id: '2',
+      restaurant_id: '1',
+      name: 'rijul',
+      review: 'great place to have fun with friends',
+      rating: 5
+    },
+    {
+      id: '3',
+      restaurant_id: '1',
+      name: 'shetty',
+      review: 'sheesh',
+      rating: 3
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16438,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16438,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16438,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16438,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16438,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
+1
+Result {
+  command: 'SELECT',
+  rowCount: 2,
+  oid: null,
+  rows: [
+    {
+      id: '2',
+      restaurant_id: '1',
+      name: 'rijul',
+      review: 'great place to have fun with friends',
+      rating: 5
+    },
+    {
+      id: '3',
+      restaurant_id: '1',
+      name: 'shetty',
+      review: 'sheesh',
+      rating: 3
+    }
+  ],
+  fields: [
+    Field {
+      name: 'id',
+      tableID: 16438,
+      columnID: 1,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'restaurant_id',
+      tableID: 16438,
+      columnID: 2,
+      dataTypeID: 20,
+      dataTypeSize: 8,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'name',
+      tableID: 16438,
+      columnID: 3,
+      dataTypeID: 1043,
+      dataTypeSize: -1,
+      dataTypeModifier: 54,
+      format: 'text'
+    },
+    Field {
+      name: 'review',
+      tableID: 16438,
+      columnID: 4,
+      dataTypeID: 25,
+      dataTypeSize: -1,
+      dataTypeModifier: -1,
+      format: 'text'
+    },
+    Field {
+      name: 'rating',
+      tableID: 16438,
+      columnID: 5,
+      dataTypeID: 23,
+      dataTypeSize: 4,
+      dataTypeModifier: -1,
+      format: 'text'
+    }
+  ],
+  _parsers: [
+    [Function: parseBigInteger],
+    [Function: parseBigInteger],
+    [Function: noParse],
+    [Function: noParse],
+    [Function: parseInteger]
+  ],
+  _types: TypeOverrides {
+    _types: {
+      getTypeParser: [Function: getTypeParser],
+      setTypeParser: [Function: setTypeParser],
+      arrayParser: [Object],
+      builtins: [Object]
+    },
+    text: {},
+    binary: {}
+  },
+  RowCtor: null,
+  rowAsArray: false
+}
